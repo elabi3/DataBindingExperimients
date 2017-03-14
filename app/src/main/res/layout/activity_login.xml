@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.elabi3.databind.viewModel.LoginViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@{viewModel.loginObject.username}"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:onTextChanged="@{viewModel.usernameOnTextChanged}"
+            android:text="@{viewModel.loginObject.username}" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:onTextChanged="@{viewModel.passwordOnTextChanged}"
+            android:text="@{viewModel.loginObject.password}"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:onClick="@{viewModel.onClickLogin}"
+            android:text="Login" />
+
+    </LinearLayout>
+</layout>
