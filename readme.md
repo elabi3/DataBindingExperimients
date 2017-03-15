@@ -10,7 +10,7 @@ Goals:
 
 To develop this example app i read multiple articles that inspire to me:
 
-* [Data Binding Library](https://developer.android.com/topic/libraries/data-binding/index.html). [Google](https://github.com/google)
+* [Data Binding Library](https://developer.android.com/topic/libraries/data-binding/index.html) - [Google](https://github.com/google)
 
 * [Advocating Against Android Fragments](https://medium.com/square-corner-blog/advocating-against-android-fragments-81fd0b462c97#.taek4u8t8) - [Square](https://github.com/square)
 
@@ -22,3 +22,6 @@ To develop this example app i read multiple articles that inspire to me:
 
 * [android-data-binding-rxjava](https://github.com/TangoAgency/android-data-binding-rxjava) - [TangoAgency](https://github.com/TangoAgency)
 
+# Author
+
+Abimael Barea [@elabi3](https://github.com/elabi3)
